@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #F6F6F6;
+    }
+    
+    #container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #FFFFFF;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    h1 {
+        text-align: center;
+        color: #2AA6C5;
+        margin-top: 0;
+    }
+    
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 30px;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    th {
+        background-color: #2AA6C5;
+        color: #FFFFFF;
+    }
+    
+    tr:nth-child(even) {
+        background-color: #F2F2F2;
+    }
+    
+    .map-container {
+        position: relative;
+        margin-bottom: 20px;
+        height: 0;
+        padding-top: 56.25%;
+    }
+    
+    .map-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: none;
+    }
+    
+    h2 {
+        color: #FF7940;
+    }
+    
+    h3 {
+        color: #2AA6C5;
+    }
+    .centered-text {
+        text-align: center;
+        margin-top: 50px;
+    }
+    
+</style>
+<title>Data Collection Dashboard</title>
+</head>
+<body>
+    <div class="centered-text">
+        <h1>MEO! Are You looking for me?</h1>
+        <h2>You are now Tracking 4 animals</h2>
+    </div>
+<div id="container">
+    <h1>Data Collection Dashboard</h1>
+    
+    <table>
+        <tr>
+            <th>Molly</th>
+            <th>Rex</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25547.79884945125!2d10.109315174316402!3d36.831102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd330d7a4aafb3%3A0x6e7188efdc14caa7!2sEcole%20Nationale%20d&#39;Ing%C3%A9nieurs%20de%20Tunis!5e0!3m2!1sfr!2stn!4v1685150585712!5m2!1sfr!2stn" ></iframe>                </div>
+            </td>
+            <td>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25547.755338172476!2d10.109315144737446!3d36.831232293222726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd333723654b7b%3A0xb34ea783a7c8880f!2sManar%20City!5e0!3m2!1sfr!2stn!4v1685151391662!5m2!1sfr!2stn" ></iframe>                </div>
+            </td>
+        </tr>
+        <tr>
+            <th>Saly</th>
+            <th>Bob</th>
+        </tr>
+        <tr>
+            <td>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25547.777093818157!2d10.109315159526925!3d36.83116714664182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd338d3474aa8f%3A0x1252ce32a94478f9!2smanar%201!5e0!3m2!1sfr!2stn!4v1685150645415!5m2!1sfr!2stn" ></iframe>
+                </div>
+            </td>
+            <td>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyA0s1a7phLN0iaD6-UE7m4qP-z21pH0eSc&q=Eiffel+Tower+Paris+France" ></iframe>
+                </div>
+            </td>
+        </tr>
+    </table>
+    
+    
+</div>
+</body>
+</html>
